@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Github",
+        "link": "https://github.com/aim-rsf",
+        "image": "images/social/github.svg"
+    },
+    {
+        "name": "Twitter",
+        "link": "https://twitter.com/turinginst",
+        "image": "images/social/twitter.svg"
+    }
+]
