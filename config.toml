@@ -1,0 +1,75 @@
+baseURL = "/"
+themesDir = "themes"
+theme = "hugo-serif-theme"
+languageCode = "en-us"
+title = "AIM RSF September Event Series"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
+
+[params]
+  # In most cases you will only want to set the google_analytics_id OR the google_tag_manager_id. If you have Google Analytics included in your GTM tags don't put your GA ID here. Otherwise your data might be useless.
+  google_analytics_id = ""
+  google_tag_manager_id = ""
+
+  [params.homepage]
+    show_contact_box = false     # show / hide the contact box on the homepage
+    show_services_button = false # show / hide the "view all services" button
+
+  [params.logo]
+    mobile = "images/logo/logo-mobile.svg"
+    mobile_height = "36px"
+    desktop = "images/logo/test-logo.png"
+    desktop_height = "36px"
+    alt = "AIM RSF September Events"
+
+  [params.fonts]
+    # sets the google font link in layouts/partials/google-fonts.html
+    google_fonts = 'https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Source+Sans+Pro:wght@400;700&display=swap'
+    heading = "Inter"
+    base = "Source Sans Pro"
+
+  [params.colors]
+    primary = "#007DFF"
+    black = "#2f2f41"
+    white = "#ffffff"
+    white_offset = "#f6f7ff"
+    grey = "#5C5A5A"
+
+  [params.events]
+    summary_truncate = 117 # How many characters to include in the summary of the events before truncating
+
+  [params.team]
+    summary_large_truncate = 120 # How many characters to include in the summary of the team bios (large layout) before truncating
+
+
+
+[menu]
+  # Main Menu
+  [[menu.main]]
+    name = "September Events"
+    url = "/events/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Get in Touch"
+    url = "/contact-us/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Turing Website"
+    url = "https://www.turing.ac.uk/research/research-projects/ai-multiple-long-term-conditions-research-support-facility"
+    weight = 4
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.footer]]
+    name = "Contact"
+    url = "/contact-us/"
+    weight = 2
