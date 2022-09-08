@@ -1,4 +1,4 @@
-baseURL = "https://aim-rsf-events.github.io/"
+baseURL = "alan-turing-institute.github.io/aim-events//"
 themesDir = "themes"
 theme = "hugo-serif-theme"
 languageCode = "en-gb"
